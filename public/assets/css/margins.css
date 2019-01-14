@@ -1,0 +1,18 @@
+header {
+  margin: 0 0 2em 0;
+}
+
+  header > p {
+    margin: 1em 0 0 0;
+  }
+
+footer {
+  margin: 2em 0 0 0;
+}
+p, ul, ol, dl, table {
+  margin-bottom: 2em;
+}
+.container {
+  max-width: 100%;
+  width: 1400px;
+}

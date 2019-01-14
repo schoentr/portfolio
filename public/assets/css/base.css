@@ -91,16 +91,7 @@ input, select, textarea {
 		color: #888;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
+		
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
@@ -109,7 +100,6 @@ input, select, textarea {
 		line-height: 1.75em;
 		color: #888;
 	}
-
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
@@ -130,29 +120,11 @@ input, select, textarea {
 		letter-spacing: -1px;
 	}
 
-		h2.alt {
-			color: #888;
-		}
-
-			h2.alt strong {
-				color: #666;
-			}
-
+	
 	h3 {
 		font-size: 1.5em;
 	}
 
-	header {
-		margin: 0 0 2em 0;
-	}
-
-		header > p {
-			margin: 1em 0 0 0;
-		}
-
-	footer {
-		margin: 2em 0 0 0;
-	}
 
 	strong, b {
 		font-weight: 300;
@@ -163,16 +135,6 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	a {
-		text-decoration: none;
-		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
-		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		outline: 0;
-	}
 
 		a:hover {
 			color: #E27689;
@@ -202,18 +164,6 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
-		margin-bottom: 2em;
-	}
-
 	br.clear {
 		clear: both;
-	}
-
-/* Container */
-
-	.container {
-		margin: 0 auto;
-		max-width: 100%;
-		width: 1400px;
 	}
