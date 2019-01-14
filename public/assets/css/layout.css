@@ -166,35 +166,35 @@ form ::-moz-focus-inner {
   border: 0;
 }
 /* table */
-	 table {
-		width: 100%;
-		text-align: left;
-	}
+table {
+  width: 100%;
+  text-align: left;
+}
 
-		table tbody tr:nth-child(2n+2) {
-			background: #f4f4f4;
-		}
+  table tbody tr:nth-child(2n+2) {
+    background: #f4f4f4;
+  }
 
-		table td {
-			padding: 0.5em 1em 0.5em 1em;
-		}
+  table td {
+    padding: 0.5em 1em 0.5em 1em;
+  }
 
-		table th {
-			text-align: left;
-			padding: 0.5em 1em 0.5em 1em;
-			color: #fff;
-			background: #222729 url("images/overlay.png");
-		}
+  table th {
+    text-align: left;
+    padding: 0.5em 1em 0.5em 1em;
+    color: #fff;
+    background: #222729 url("images/overlay.png");
+  }
 
-		table thead {
-			background: #444;
-			color: #fff;
-		}
+  table thead {
+    background: #444;
+    color: #fff;
+  }
 
-		table tfoot {
-			background: #eee;
-    }
-    
+  table tfoot {
+    background: #eee;
+  }
+  
     /* Button */
 
  input[type="button"],
@@ -239,43 +239,44 @@ form ::-moz-focus-inner {
   
   /* Item */
   
- .item { 
-      box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
-      margin-bottom: 40px;
+/* .item { 
+  box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+  } */
+  
+  .item header {
+    background: #fff;
+    margin: 0;
+    padding: 1em 0 1em 0;
+    font-size: 0.8em;
     }
   
-      .item header {
-        background: #fff;
-        margin: 0;
-        padding: 1em 0 1em 0;
-        font-size: 0.8em;
-      }
-  
-        .item header h3 {
-          font-size: 1em;
-        } */
+  .item header h3 {
+    font-size: 1em;
+  } 
   
   /* Icons */
   
-    .icon {
-      text-decoration: none;
-    }
+.icon {
+    text-decoration: none;
+  }
   
-      .icon:before {
-        display: inline-block;
-        font-family: FontAwesome;
-        font-size: 1.25em;
-        text-decoration: none;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
+  .icon:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
   
-      .icon > .label {
-        display: none;
-      }	#header {
+  .icon > .label {
+    display: none;
+  }
+#header {
         display: -moz-flex;
         display: -webkit-flex;
         display: -ms-flex;
@@ -300,7 +301,7 @@ form ::-moz-focus-inner {
         width: 375px;
       }
     
-        #header .top {
+        /* #header .top {
           -moz-flex-grow: 1;
           -webkit-flex-grow: 1;
           -ms-flex-grow: 1;
@@ -313,7 +314,7 @@ form ::-moz-focus-inner {
           -ms-flex-shrink: 0;
           flex-shrink: 0;
           padding: 1.5em 0 0.75em 0;
-        }
+        } */
     
           #header .bottom > :last-child {
             margin-bottom: 0;
@@ -324,13 +325,13 @@ form ::-moz-focus-inner {
           text-align: center;
         }
     
-          #header .icons a {
+          /* #header .icons a {
             color: #41484c;
             -moz-transition: color 0.35s ease-in-out;
             -webkit-transition: color 0.35s ease-in-out;
             -ms-transition: color 0.35s ease-in-out;
             transition: color 0.35s ease-in-out;
-          }
+          } */
     
             #header .icons a:hover {
               color: #fff;
@@ -507,33 +508,33 @@ form ::-moz-focus-inner {
     
     /* Wide */
     
-      @media screen and (min-width: 961px) and (max-width: 1880px) {
+     /* @media screen and (min-width: 961px) and (max-width: 1880px) {
     
         /* Basic */
     
-          body, input, textarea, select {
-            font-size: 17pt;
-          }
+          /* body, input, textarea, select { */
+            /* font-size: 17pt; */
+      /*     } */
     
         /* Header */
     
-          #header {
-            width: 300px;
-          }
+          /* #header { */
+            /* width: 300px; */
+          /* } */
     
         /* Footer */
     
-          #footer {
-            margin-left: 300px;
-          }
+          /* #footer { */
+            /* margin-left: 300px; */
+          /* } */
     
         /* Main */
     
-          #main {
-            margin-left: 300px;
-          }
+          /* #main { */
+            /* margin-left: 300px; */
+          /* } */
     
-      }
+      /* }
     
     /* Normal */
     
