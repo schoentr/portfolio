@@ -218,7 +218,7 @@ input, select, textarea {
 		width: 1400px;
 	}  */
 
-		@media screen and (min-width: 961px) and (max-width: 1880px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
 				width: 1200px;
@@ -256,11 +256,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		}
+		} */
 
 /* Row */
 
-	.row {
+	/* .row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -1724,11 +1724,11 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
-		}
+		} */
 
 /* Sections/Article */
 
-	section, article {
+	/* section, article {
 		margin-bottom: 3em;
 	}
 
@@ -1740,11 +1740,11 @@ input, select, textarea {
 
 		.row > section, .row > article {
 			margin-bottom: 0;
-		}
+		} */
 
 /* Image */
 
-	.image {
+	/* .image {
 		display: inline-block;
 		border: 0;
 	}
@@ -1789,9 +1789,9 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
-			}
+			} */
 
-/* List */
+/* List
 
 	ul {
 		list-style: disc;
@@ -1809,10 +1809,10 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
-		}
+		} */
 
 /* Icons */
-
+/* 
 	ul.icons {
 		cursor: default;
 		list-style: none;
@@ -1831,11 +1831,11 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
-		}
+		} */
 
 /* Form */
 
-	form label {
+	/* form label {
 		display: block;
 		text-align: left;
 		margin-bottom: 0.5em;
@@ -1902,11 +1902,11 @@ input, select, textarea {
 
 	form ::-moz-focus-inner {
 		border: 0;
-	}
+	} */
 
 /* Table */
 
-	table {
+	/* table {
 		width: 100%;
 		text-align: left;
 	}
@@ -1933,11 +1933,11 @@ input, select, textarea {
 
 		table tfoot {
 			background: #eee;
-		}
+		} */
 
 /* Button */
 
-	input[type="button"],
+	/* input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
 	button,
@@ -1979,7 +1979,7 @@ input, select, textarea {
 
 /* Item */
 
-	.item {
+	/* .item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
@@ -1993,10 +1993,10 @@ input, select, textarea {
 
 			.item header h3 {
 				font-size: 1em;
-			}
+			} */
 
 /* Icons */
-
+/* 
 	.icon {
 		text-decoration: none;
 	}
@@ -2015,11 +2015,11 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
-		}
+		} */
 
 /* Header */
 
-	#header {
+	/* #header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2608,4 +2608,4 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-			}
+			} */
